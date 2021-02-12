@@ -1,3 +1,10 @@
+body {
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	letter-spacing: 1px;
+}
+
 .slides-navigation .prev i{
 	font-size: 3rem;
 	color: white;
@@ -47,4 +54,117 @@
 
 .titleMessage .heading .sub {
 	font-size: 1.5rem;
+}
+
+.section {
+	padding: 100px 0;
+}
+
+.aboutImage {
+	max-width: 100%;
+}
+
+#skills,
+#contact {
+	background-color: #1687a7;
+	color: #fff;
+}
+
+.skill {
+	text-align: center;
+	margin-left: 10px;
+}
+
+.chart {
+	position: relative;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	text-align: center;
+}
+
+.chart canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.chart .percent {
+	color: #000;
+	line-height: 152px;
+	display: inline-block;
+	font-size: 35px;
+}
+
+.chart .percent:after{
+	content: '%';
+}
+
+.squareItem {
+	margin-top: 30px;
+	position: relative;
+}
+
+.squareInnerContainer {
+	position: relative;
+	padding: 50px 15px 35px 15px;
+	text-align: center;
+	border: 2px solid #444;
+	border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	width: 30%;
+	border-bottom: 2px solid #444;
+}
+
+.squareInnerContainer:before {
+	right: 0px;
+}
+
+.squareInnerContainer:after {
+	left: 0px;
+}
+
+.squareContent h2 {
+	font-size: 56px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	color: #1687a7;
+}
+
+.squareContent h3 {
+	font-size: 13px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.squareIcon {
+	position: absolute;
+	left: 30%;
+	top: -30px;
+	width: 40%;
+	height: 60px;
+	font-size: 45px;
+	color: #444;
+}
+
+.contactButton {
+	color: #fff;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	color: #1687a7;
+	background-color: #fff;
 }

@@ -6,13 +6,15 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<!-- super slides CSS -->
 	<link rel="stylesheet" type="text/css" href="css/superslides.css">
+	<!-- owl carousel CSS -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 	<!-- main CSS for this webside -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- fontawesome -->
 	<script src="https://kit.fontawesome.com/6ed6d1ca67.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div id="slides">
+	<section id="slides">
 	  <div class="overlay"></div>
 	  
 	  <div class="slides-container">
@@ -32,24 +34,176 @@
 	    <a href="#" class="prev"><i class="far fa-arrow-alt-circle-left"></i></a>
 	    <a href="#" class="next"><i class="far fa-arrow-alt-circle-right"></i></a>
 	  </nav>
-	</div>
+	</section>
+
+	<section id="about" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<img class="aboutImage" src="img/about.jpg">
+				</div>
+				<div class="col-md-7">
+					<h4>My name is Reece Kenney</h4>
+					<p>Hi there! I'm Reece Kenney from Rugby, England. I currently work as a Software Engineer at Microsoft. I have many years experience creating software, mobile apps and websites for both myself, and for clients. I have experience programming in many different languages such as C, C++, C#, Java, PHP and Objective-C, however some of my favourite projects involve working in Swift for iOS.</p>
+					<p>I graduated from university in Leeds, England with first class honours (4.0 GPA) in Computer Science and also spent a year studying computer science at Purdue University in Indiana, USA. </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>TECHNICAL SKILLS</h2>
+					<p>A representation of my proficiency in each skill</p>
+				</div>
+				<div class="owl-carousel owl-theme">
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="67">
+				    		<span class="percent">67</span>
+				    		<canvas height="152" width="152"></canvas>
+				    	</span>
+				    	<h4>PHP</h4>
+				    	<p>Used in most of my web based project</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="67">
+				    		<span class="percent">67</span>
+				    		<canvas height="152" width="152"></canvas>
+				    	</span>
+				    	<h4>MySQL</h4>
+				    	<p>Used in most of my web based project</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="67">
+				    		<span class="percent">67</span>
+				    		<canvas height="152" width="152"></canvas>
+				    	</span>
+				    	<h4>Python</h4>
+				    	<p>Used in most of my web based project</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="67">
+				    		<span class="percent">67</span>
+				    		<canvas height="152" width="152"></canvas>
+				    	</span>
+				    	<h4>C++</h4>
+				    	<p>Used in most of my web based project</p>
+				    </div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="stats" class="statsSection section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa fa-clock"></i>
+							</div>
+							<div class="squareContent">
+								<h2>4</h2>
+								<h3>Year</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa fa-clock"></i>
+							</div>
+							<div class="squareContent">
+								<h2>4</h2>
+								<h3>Year</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa fa-clock"></i>
+							</div>
+							<div class="squareContent">
+								<h2>4</h2>
+								<h3>Year</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa fa-clock"></i>
+							</div>
+							<div class="squareContent">
+								<h2>4</h2>
+								<h3>Year</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="section">
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<p class="subHeading">Like what you see?</p>
+				<h2>I'd love to hear from you!</h2>
+				<a type="button" class="contactButton" href="mailTo:jwsh09910062@gmail.com">GET IN TOUCH!</a>			
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="heading">
+					<h2>PORTFOLIO</h2>
+				</div>
+				<div class="filter">
+					<ul id="filters">
+						<li><a href="#">ALL</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-
-
-
-
-
-	
-	<!-- Bootstrap 5.0 JavaScript Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-	<!-- jQuery 3.5.1 -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- super slides JavaScript -->
-	<script src="js/jquery.superslides.js"></script>
-	<!-- heading typed js -->
-	<script src="js/typed.js"></script>
-	<!-- main js for this webside -->
-	<script src="js/script.js"></script>
+	<section>
+		<!-- Bootstrap 5.0 JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<!-- jQuery 3.5.1 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- super slides JavaScript -->
+		<script src="js/jquery.superslides.js"></script>
+		<!-- heading typed js -->
+		<script src="js/typed.js"></script>
+		<!-- owl carousel js -->
+		<script src="js/owl.carousel.js"></script>
+		<!-- jquery.easypiechart js -->
+		<script src="js/jquery.easypiechart.js"></script>
+		<!-- isotope js -->
+		<script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+		<!-- main js for this webside -->
+		<script src="js/script.js"></script>
+	</section>
 </body>
 </html>
