@@ -12,6 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- fontawesome -->
 	<script src="https://kit.fontawesome.com/6ed6d1ca67.js" crossorigin="anonymous"></script>
+	<!-- fancybox for full screen img -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 <body>
 	<section id="slides">
@@ -179,9 +181,76 @@
 				</div>
 				<div class="filter">
 					<ul id="filters">
-						<li><a href="#">ALL</a></li>
+						<li><a href="#" data-filter="*" class="current">ALL</a></li>
+						<li><a href="#" data-filter=".apps">Apps</a></li>
+						<li><a href="#" data-filter=".me">Me</a></li>
+						<li><a href="#" data-filter=".websites">Websites</a></li>
 					</ul>
 				</div>
+				<div class="itemsContainer">
+					<ul class="items">
+						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/a.png">
+								<div class="icons">
+									<a href="img/portfolio/a.png" title="View Image" class="openButton" data-fancybox data-caption="">
+										<i class="fa fa-search"></i>
+									</a>
+									<a href="" target="_blank" class="projectLink">
+										<i class="fa fa-link"></i>
+									</a>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/a.png">
+								<div class="icons">
+									<a href="img/portfolio/a.png" title="View Image" class="openButton" data-fancybox data-caption="">
+										<i class="fa fa-search"></i>
+									</a>
+									<a href="" target="_blank" class="projectLink">
+										<i class="fa fa-link"></i>
+									</a>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+						<li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/a.png">
+								<div class="icons">
+									<a href="img/portfolio/a.png" title="View Image" class="openButton" data-fancybox data-caption="">
+										<i class="fa fa-search"></i>
+									</a>
+									<a href="" target="_blank" class="projectLink">
+										<i class="fa fa-link"></i>
+									</a>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+						<li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/a.png">
+								<div class="icons">
+									<a href="img/portfolio/a.png" title="View Image" class="openButton" data-fancybox data-caption="">
+										<i class="fa fa-search"></i>
+									</a>
+									<a href="" target="_blank" class="projectLink">
+										<i class="fa fa-link"></i>
+									</a>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -202,6 +271,8 @@
 		<script src="js/jquery.easypiechart.js"></script>
 		<!-- isotope js -->
 		<script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+		<!-- fancybox for full screen img -->
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 		<!-- main js for this webside -->
 		<script src="js/script.js"></script>
 	</section>
