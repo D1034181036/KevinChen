@@ -279,12 +279,12 @@ a {
 
 .items .openButton {
 	float: left;
-	left: -200px;
+	left: -400px;
 }
 
 .items .projectLink {
 	float: right;
-	right: -200px;
+	right: -400px;
 }
 
 .items .item:hover .openButton {
