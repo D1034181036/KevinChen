@@ -233,6 +233,10 @@ a {
 	width: 100%;
 }
 
+#filters {
+	padding-left: 0px;
+}
+
 .section .heading {
 	text-align: center;
 	padding-bottom: 40px;
