@@ -10,14 +10,14 @@ a {
 }
 
 .slides-navigation .prev i{
-	font-size: 3rem;
+	font-size: 1.5rem;
 	color: white;
 	position: absolute;
 	left: 20px;
 }
 
 .slides-navigation .next i{
-	font-size: 3rem;
+	font-size: 1.5rem;
 	color: white;
 	position: absolute;
 	right: 20px;
@@ -101,7 +101,10 @@ a {
 
 #about h6 {
 	line-height: 1.5rem;
-	margin-bottom: 1.5rem;
+}
+
+#about h4 {
+	margin: 2rem 0 1rem;
 }
 
 #profile,
