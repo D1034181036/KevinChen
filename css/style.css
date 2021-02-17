@@ -64,10 +64,47 @@ a {
 	padding: 100px 0;
 }
 
-.aboutImage {
-	max-width: 100%;
+#profile {
+	text-align: center;
 }
 
+.profileButton {
+	color: #fff;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.profileButton:hover {
+	text-decoration: none;
+	color: #1687a7;
+	background-color: #fff;
+}
+
+.profileImage {
+	max-width: 100%;
+	margin-bottom: 32px;
+}
+
+#about {
+	padding: 50px 0;
+}
+
+#about .heading {
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+#about h6 {
+	line-height: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+#profile,
 #skills,
 #contact {
 	background-color: #1687a7;
@@ -305,4 +342,30 @@ a {
 
 .items {
 	padding: 0;
+}
+
+#copyrightSection {
+	background-color: #000;
+	color: #fff;
+	padding: 24px 0px;
+}
+
+#copyrightSection p {
+	margin: 0;
+}
+
+.loader {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 420;
+}
+
+.loader .inner {
+	width: 100%;
+	height: 100%;
+	background: url(../img/loader.gif) center center no-repeat;
 }
