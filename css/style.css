@@ -3,12 +3,11 @@ body {
 	color: #333;
 	background-color: #fff;
 	letter-spacing: 1px;
-	-webkit-appearance: none;
 }
 
 a {
 	text-decoration: none;
-	-webkit-appearance: none;
+
 }
 
 .slides-navigation .prev i{
