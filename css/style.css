@@ -86,14 +86,28 @@ a {
 }
 
 .titleButton {
+	position: relative;
+	left: -50%;
+	color: #fff;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+.titleButton:hover {
+	text-decoration: none;
+	color: #1687a7;
+	background-color: #fff;
+}
+
+.titleButtonContainer {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-}
-
-.titleButton a{
-	position: relative;
-	left: -50%;
 }
 
 .profileImage {
