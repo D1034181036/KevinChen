@@ -106,7 +106,7 @@ a {
 
 #profile,
 #skills,
-#contact {
+#contact{
 	background-color: #1687a7;
 	color: #fff;
 }
@@ -121,6 +121,7 @@ a {
 	width: 152px;
 	height: 152px;
 	display: inline-block;
+	margin: 0 0 25px 0px;
 	text-align: center;
 }
 
@@ -172,14 +173,14 @@ a {
 }
 
 .squareContent h2 {
-	font-size: 56px;
+	font-size: 2.5rem;
 	margin-bottom: 10px;
 	font-weight: 400;
 	color: #1687a7;
 }
 
 .squareContent h3 {
-	font-size: 13px;
+	font-size: 1rem;
 	font-weight: 600;
 	margin: 0;
 }
@@ -205,7 +206,6 @@ a {
 }
 
 .contactButton:hover {
-	text-decoration: none;
 	color: #1687a7;
 	background-color: #fff;
 }

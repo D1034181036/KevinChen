@@ -32,7 +32,7 @@ $(document).ready(function(){
 	    margin:10,
 	    items: 4,
 	    autoplay: true,
-	    autoplayTimeout: 3000,
+	    autoplayTimeout: 4000,
 	    responsive:{
 	        0:{
 	            items:1
