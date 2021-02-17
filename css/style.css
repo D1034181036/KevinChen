@@ -77,7 +77,6 @@ a {
 	border-radius: 4px;
 	text-decoration: none;
 	font-size: 1.5rem;
-	z-index: 5;
 }
 
 .profileButton:hover {
@@ -223,6 +222,7 @@ a {
 .contactButton:hover {
 	color: #1687a7;
 	background-color: #fff;
+	text-decoration: none;
 }
 
 .filter a {
@@ -230,6 +230,7 @@ a {
 	border: 1px solid #bdc3c7;
 	padding: 10px 18px;
 	display: block;
+	text-decoration: none;
 }
 
 .filter li {
