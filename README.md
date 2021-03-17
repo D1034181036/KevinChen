@@ -9,9 +9,7 @@ Check the link below :)
 https://d1034181036.github.io/KevinChen
 
 # Preview
-
-### preview 1:  
+  
 ![preview1](img/preview1.png)
 
-### preview 2:  
 ![preview2](img/preview2.png)
