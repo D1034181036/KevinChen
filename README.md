@@ -1,8 +1,8 @@
 # Hello ~
 
 Hi, I'm Kevin Chen,  
-This is my Personal WebSite,
-Check the link below :)
+This is my Personal WebSite,  
+Please check the link below :)
 
 # Online Demo
 
