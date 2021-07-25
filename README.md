@@ -2,7 +2,7 @@
 
 Hi, I'm Kevin Chen,  
 This is my Personal WebSite,  
-Please check the link below :)
+Please check the demo page below :)
 
 # Online Demo
 
