@@ -1,14 +1,12 @@
-# Hello ~
+# Welcome !
 
 Hi, I'm Kevin Chen,  
-This is my Personal WebSite,  
-Please check the demo page below :)
-
-# Online Demo
+This is my personal website repository,  
+Please check the page link below :)
 
 https://d1034181036.github.io/KevinChen
 
-# Preview
+## Preview
   
 ![preview1](img/preview1.png)
 
