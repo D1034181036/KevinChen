@@ -373,6 +373,14 @@ a {
 	right: 0px;
 }
 
+.items .openButtonCenter {
+	left: -400px;
+}
+
+.items .item:hover .openButtonCenter {
+	left: 0px;
+}
+
 .items .item:hover img {
 	-webkit-transform: scale(1.05, 1.05);
 	-moz-transform: scale(1.05, 1.05);
