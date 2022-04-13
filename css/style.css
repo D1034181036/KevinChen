@@ -381,6 +381,14 @@ a {
 	left: 0px;
 }
 
+.items .projectLinkCenter {
+	right: -400px;
+}
+
+.items .item:hover .projectLinkCenter {
+	right: 0px;
+}
+
 .items .item:hover img {
 	-webkit-transform: scale(1.05, 1.05);
 	-moz-transform: scale(1.05, 1.05);

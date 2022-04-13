@@ -2,7 +2,7 @@ $(window).on("load", function(){
 	$(".loader").fadeOut(500);
 
 	$(".items").isotope({
-    	filter: '*',
+    	filter: '*.websites',
     	animationOptions: {
     		duration: 1500,
     		easing: 'linear',

@@ -1,12 +1,12 @@
 # Welcome !
 
-Hi, I'm Kevin Chen,  
-This is my personal website repository,  
-Please check the page link below :)
+Hello, I'm Kevin Chen,  
+welcome to my personal website repository,
+please check out the website [Here](https://d1034181036.github.io/KevinChen)!
 
 https://d1034181036.github.io/KevinChen
 
-## Preview
+## Previews
   
 ![preview1](img/preview1.png)
 
