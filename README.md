@@ -1,7 +1,7 @@
 # Welcome !
 
 Hello, I'm Kevin Chen,  
-welcome to my personal website repository,
+welcome to my personal website repository,  
 please check out the website [Here](https://d1034181036.github.io/KevinChen)!
 
 https://d1034181036.github.io/KevinChen
