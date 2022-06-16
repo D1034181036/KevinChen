@@ -1,8 +1,7 @@
 # Welcome !
 
-Hello, My name is Kevin Chen,  
-Welcome to my personal website repository,  
-Please check out the website [Here](https://d1034181036.github.io/KevinChen)!
+Hello, My name is Kevin Chen.
+[<h2>Personal Website Link</h2>](https://d1034181036.github.io/KevinChen)
 
 
 ## Previews
