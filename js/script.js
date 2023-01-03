@@ -28,11 +28,11 @@ $(document).ready(function(){
 	});
 
 	$('.owl-carousel').owlCarousel({
-	    loop:true,
-	    margin:10,
-	    items: 4,
+	    loop: false,
+	    margin: 10,
+	    items: 3,
 	    autoplay: true,
-	    autoplayTimeout: 4000,
+	    autoplayTimeout: 3000,
 	    responsive:{
 	        0:{
 	            items:1
@@ -42,9 +42,6 @@ $(document).ready(function(){
 	        },
 	        768:{
 	            items:3
-	        },
-	        938:{
-	        	items:4
 	        }
 	    }
 	})
