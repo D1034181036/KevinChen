@@ -7,8 +7,8 @@
 
 	<!-- ========== Plugin CSS ========== -->
 
-	<!-- Bootstrap 4.6.0 CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<!-- Bootstrap 5.2.3 CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 	<!-- Super slides CSS -->
 	<link rel="stylesheet" type="text/css" href="css/superslides.css">
 	<!-- Owl carousel CSS -->
@@ -184,10 +184,15 @@
 
 	<section id="contact" class="section">
 		<div class="container">
-			<div class="col-md-12 text-center">
-				<h5>喜歡以上內容嗎？</h5>
-				<h2>歡迎隨時聯絡我！</h2>
-				<a class="contactButton" href="mailTo:jwsh09910062@gmail.com">我的 Email 信箱</a>			
+			<div class="text-center p-2">
+				<h2 class="">歡迎隨時聯絡我！</h2>
+			</div>
+			<div class="p-2 my-2 input-group input-group-lg d-flex justify-content-center">
+				<input id="myEmail" type="text" class="form-control text-center" style="max-width: 480px;" value="jwsh09910062@gmail.com" readonly>
+				<button class="btn btn-success" data-clipboard-target="#myEmail" data-bs-toggle="tooltip">複製</button>
+			</div>
+			<div class="text-center">
+				<a class="contactButton" href="mailTo:jwsh09910062@gmail.com">發送電子郵件</a>
 			</div>
 		</div>
 	</section>
@@ -304,7 +309,11 @@
 
 	<section id="copyrightSection">
 		<div class="col-md-12 text-center">
-			<p></p>
+			<!-- Default Text -->
+			<p>&copy; Kevin Chen</p>
+
+			<!-- Render this section dynamically using JS -->
+			<script> document.querySelector("section#copyrightSection p").innerHTML = '&copy; Kevin Chen 2021 - ' + new Date().getFullYear(); </script>
 		</div>
 	</section>
 
@@ -312,8 +321,8 @@
 
 	<!-- jQuery 3.5.1 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- Bootstrap 4.6 JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<!-- Bootstrap 5.2.3 JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 	<!-- Fontawesome JS -->
 	<script src="https://kit.fontawesome.com/6ed6d1ca67.js" crossorigin="anonymous"></script>
 	<!-- Super Slides JS -->
@@ -328,11 +337,10 @@
 	<script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
 	<!-- Fancybox JS -->
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<!-- Clipboard JS -->
+	<script src="js/clipboard.min.js"></script>
 	
 	<!-- ========== Custom JS ========== -->
 	<script src="js/script.js"></script>
-
-	<!-- Render Footer Year -->
-	<script> document.querySelector("section#copyrightSection p").innerHTML = '&copy; Kevin Chen 2021 - ' + new Date().getFullYear(); </script>
 </body>
 </html>
