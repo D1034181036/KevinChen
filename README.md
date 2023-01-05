@@ -1,7 +1,7 @@
 # Welcome !
 
 Hello, My name is Kevin Chen.
-[<h2>Personal Website Link</h2>](https://d1034181036.github.io/KevinChen)
+## [Personal Website Link](https://d1034181036.github.io/KevinChen)
 
 
 ## Previews
